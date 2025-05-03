@@ -1,20 +1,45 @@
 {
-  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
-  "logo": "",
-  "modules": [
-    "title",
-    "uptime",
-    "separator",
-    "os",
-    "kernel",
-    "packages",
-    "shell",
-    "terminal",
-    "separator",
-    "cpu",
-    "gpu",
-    "memory",
-    "break",
-    "colors"
-  ]
+	"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+		"logo": {
+			"source": "",
+			"type": "file"
+		},
+
+	"display": {
+		"separator": " - ",
+		"color": {
+ // https://en.wikipedia.org/wiki/ANSI_escape_code#SGR_(Select_Graphic_Rendition)_parameters 38;5;n for 8-bit, 38;2;r;g;b for hex
+			"keys": "#18f87c",
+			"title": "#f81894",
+			// "output": "#",
+			// "separator": "#"
+		}
+	},
+
+	"modules": [
+		{
+			"type": "title",
+		},
+		"uptime",
+		{
+			"type": "custom",
+			"format": "<=-=-=-=-=-=-OS-=-=-=-=-=-=>",
+			"outputColor": "38;2;248;24;148",
+		},
+		"os",
+		"kernel",
+		"packages",
+		"shell",
+		"terminal",
+		{
+			"type": "custom",
+			"format": "<=-=-=-=-=-=Spec=-=-=-=-=-=>",
+			"outputColor": "38;2;248;24;148",
+		},
+		"cpu",
+		"gpu",
+		"memory",
+		"break",
+		"colors"
+	]
 }
