@@ -6,3 +6,8 @@ On Windows, this is stored in `C:/ProgramData/fastfetch/config.jsonc`
 On *nix it's stored in `~/.config/fastfetch/config.jsonc`
 
 See [fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch) repo for more details.
+
+
+# Fastfetch (Windows, with logo)
+
+![alt text](fastfetchwlogo.png)
