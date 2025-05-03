@@ -1,4 +1,4 @@
 # scripts, options, general code
-repo of scripts i use for various programs
+Repo of scripts I use for various programs.
 
-/fetchers is for things like neofetch and fastfetch, so i dont have to reedit the config everytime i change my os
+`fetchers` is for things like neofetch and fastfetch, so I don't have to reedit the config everytime I change my OS.
