@@ -10,4 +10,4 @@ See [fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch) repo f
 
 # Fastfetch (Windows, with logo)
 
-![alt text](fastfetchwlogo.png)
+![alt text](fastfetch/fastfetchwlogo.png)
