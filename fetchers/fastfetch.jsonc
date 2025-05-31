@@ -9,6 +9,7 @@
 		"separator": " - ",
 		"color": {
  // https://en.wikipedia.org/wiki/ANSI_escape_code#SGR_(Select_Graphic_Rendition)_parameters 38;5;n for 8-bit, 38;2;r;g;b for hex
+ // Hex codes were added in 2.44, make sure you're updated to >=2.44.0 to use them. Otherwise, use the ANSI codes.
 			"keys": "#18f87c",
 			"title": "#f81894",
 			// "output": "#",
