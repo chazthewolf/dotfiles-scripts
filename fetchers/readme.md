@@ -1,3 +1,5 @@
+# Fastfetch
+
 `fastfetch.jsonc` must be renamed to config.jsonc to be used by fastfetch. 
 `taz_logo` is my custom fastfetch logo.
 
@@ -8,6 +10,6 @@ On *nix it's stored in `~/.config/fastfetch/config.jsonc`
 See [fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch) repo for more details.
 
 
-# Fastfetch (Windows, with logo)
+## Fastfetch (Windows, with logo)
 
 ![alt text](fastfetch/fastfetchwlogo.png)
