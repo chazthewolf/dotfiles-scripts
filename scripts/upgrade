@@ -1,0 +1,5 @@
+#!/bin/bash
+echo -_-_-_-_-_-_-_ dnf -_-_-_-_-_-_- 
+sudo dnf upgrade -y
+echo -_-_-_-_-_-_ flatpak _-_-_-_-_-_-
+flatpak upgrade -y
